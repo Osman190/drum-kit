@@ -20,41 +20,41 @@ function handlePress(e) {
 
 function makeSound(key) {
   switch (key) {
-    case "a":
-      let crash = new Audio("sounds/crash.mp3");
+    case 'a':
+      let crash = new Audio('sounds/crash.mp3');
       crash.play();
       break;
 
-    case "s":
-      let kickBass = new Audio("sounds/kick-bass.mp3");
+    case 's':
+      let kickBass = new Audio('sounds/kick-bass.mp3');
       kickBass.play();
-    break;
+      break;
 
-    case "d":
-      let snare = new Audio("sounds/snare.mp3");
+    case 'd':
+      let snare = new Audio('sounds/snare.mp3');
       snare.play();
-    break;
+      break;
 
-    case "f":
-      let tom1 = new Audio("sounds/tom-1.mp3");
+    case 'f':
+      let tom1 = new Audio('sounds/tom-1.mp3');
       tom1.play();
-    break;
+      break;
 
-    case "g":
-      let tom2 = new Audio("sounds/tom-2.mp3");
+    case 'g':
+      let tom2 = new Audio('sounds/tom-2.mp3');
       tom2.play();
-    break;
+      break;
 
-    case "h":
-      let tom3 = new Audio("sounds/tom-3.mp3");
+    case 'h':
+      let tom3 = new Audio('sounds/tom-3.mp3');
       tom3.play();
-    break;
+      break;
 
-    case "j":
-      let tom4 = new Audio("sounds/tom-4.mp3");
+    case 'j':
+      let tom4 = new Audio('sounds/tom-4.mp3');
       tom4.play();
-    break;
-    default: 
+      break;
+    default:
       console.log(key);
       break;
   }
